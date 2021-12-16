@@ -1,0 +1,52 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+auto eth0
+
+#有线接口静态配置,也可以使用dhcp方式，请参考手册，dhcp的话下面到默认路由都可以不要
+iface eth0 inet static
+address 192.168.50.166
+geteway 192.168.50.1
+netmask 255.255.255.0
+
+#域名服务器,看需求配置，就配只114.114.114.114也行
+dns-nameservers 223.6.6.6 180.76.76.76
+
+#默认路由
+up ip route add default via 192.168.50.1
+
+#热插拔自动启动模式，即如果此接口存在的话系统会自动ifup此接口
+allow-hotplug wlan9
+
+#无线接口静态配置，此处使用静态IP，因为要配合dhcp server配置，见附录
+iface wlan9 inet static
+address 10.66.0.1
+netmask 255.255.255.0
+
+#启动接口前杀死hostapd进程清空iptables
+up if pgrep hostapd ; then pkill hostapd ; fi
+up iptables -t nat -F
+
+#接口启动后执行脚本
+
+#启动hostapd服务，制定配置文件，配置文件见附录
+post-up hostapd /etc/hostapd/wpa2.conf -B
+
+#重启hdcp服务，
+post-up service isc-dhcp-server restart
+
+#iptables配置NAT
+post-up iptables -A FORWARD -i wlan9 -o eth0 -s 10.66.0.0/24 -m state --state NEW -j ACCEPT
+post-up iptables -A FORWARD -m state --state ESTABLISHED,RELATED -j ACCEPT
+post-up iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+post-up echo "1" >/proc/sys/net/ipv4/ip_forward
+
+#ifdown时自动执行脚本
+down if pgrep hostapd ; then pkill hostapd ; fi
+down iptables -t nat -F

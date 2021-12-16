@@ -1,0 +1,22 @@
+#!/bin/bash
+password=`zenity --password`
+echo "$password" |sudo -S systemctl disable autostart.service
+sudo -S systemctl disable rosbridge.service
+sudo -S systemctl daemon-reload
+check_status="disabled"
+autostart_status=`systemctl is-enabled autostart`
+rosbridge_status=`systemctl is-enabled rosbridge`
+if  test $autostart_status = $check_status 
+then
+  zenity --info --title="启动结果反馈" --text="autostart自动启动项成功关闭" --ellipsize
+else 
+  zenity --error --title="启动结果反馈" --text="autostart自动启动项未成功关闭，请检查设置。" --ellipsize
+fi
+
+if  test $rosbridge_status = $check_status 
+then
+  zenity --info --title="启动结果反馈" --text="rosbridge自动启动项成功关闭" --ellipsize
+else 
+  zenity --error --title="启动结果反馈" --text="rosbridge自动启动项未成功关闭，请检查设置。" --ellipsize
+fi
+exit 0

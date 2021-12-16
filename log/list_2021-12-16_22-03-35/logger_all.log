@@ -1,0 +1,367 @@
+[0.166s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-n']
+[0.166s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['.'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f6cc23d8ac0>>, metas=['./colcon.meta'], names_only=True, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=False, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f6cc23d8ac0>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6cc2288430>)
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.181s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cyp4x/dev/release_ws'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/avatars) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/avatars) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/avatars) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/avatars) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/avatars) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/avatars) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/avatars) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/avatars) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/avatars) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/avatars) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/avatars) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/avatars) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/avatars) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/avatars) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/products) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/products) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/products) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/products) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/products) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/products) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/products) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/products) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/products) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/products) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/products) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/products) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/products) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/public/static/images/products) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src) by extension 'ros'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src) by extensions ['cmake', 'python']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src) by extension 'cmake'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src) by extension 'python'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src) by extensions ['python_setup_py']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src) by extension 'python_setup_py'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets) by extension 'python_setup_py'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images) by extension 'ros'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images) by extensions ['cmake', 'python']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images) by extension 'cmake'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images) by extension 'python'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images) by extensions ['python_setup_py']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/decision) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/decision) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/decision) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/decision) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/decision) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/decision) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/decision) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/decision) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/decision) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/decision) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/decision) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/decision) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/decision) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/decision) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/icons) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/icons) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/icons) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/icons) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/icons) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/icons) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/icons) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/icons) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/icons) by extension 'ros'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/icons) by extensions ['cmake', 'python']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/icons) by extension 'cmake'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/icons) by extension 'python'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/icons) by extensions ['python_setup_py']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/icons) by extension 'python_setup_py'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/menu) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/menu) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/menu) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/menu) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/menu) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/menu) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/menu) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/menu) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/menu) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/menu) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/menu) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/menu) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/menu) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/menu) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/routing) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/routing) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/routing) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/routing) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/routing) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/routing) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/routing) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/routing) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/routing) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/routing) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/routing) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/routing) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/routing) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/routing) by extension 'python_setup_py'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/sidebar) by extensions ['ignore', 'ignore_ament_install']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/sidebar) by extension 'ignore'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/sidebar) by extension 'ignore_ament_install'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/sidebar) by extensions ['colcon_pkg']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/sidebar) by extension 'colcon_pkg'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/sidebar) by extensions ['colcon_meta']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/sidebar) by extension 'colcon_meta'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/sidebar) by extensions ['ros']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/sidebar) by extension 'ros'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/sidebar) by extensions ['cmake', 'python']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/sidebar) by extension 'cmake'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/sidebar) by extension 'python'
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/sidebar) by extensions ['python_setup_py']
+[0.194s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/images/sidebar) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/models) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/models) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/models) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/models) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/models) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/models) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/models) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/models) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/models) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/models) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/models) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/models) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/models) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/assets/models) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components) by extension 'colcon_pkg'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components) by extensions ['colcon_meta']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components) by extension 'colcon_meta'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components) by extensions ['ros']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components) by extension 'ros'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components) by extensions ['cmake', 'python']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components) by extension 'cmake'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components) by extension 'python'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components) by extensions ['python_setup_py']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components) by extension 'python_setup_py'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components/dashboard) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components/dashboard) by extension 'ignore'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components/dashboard) by extension 'ignore_ament_install'
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components/dashboard) by extensions ['colcon_pkg']
+[0.195s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components/dashboard) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components/dashboard) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components/dashboard) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components/dashboard) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components/dashboard) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components/dashboard) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components/dashboard) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components/dashboard) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components/dashboard) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/components/dashboard) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/pages) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/pages) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/pages) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/pages) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/pages) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/pages) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/pages) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/pages) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/pages) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/pages) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/pages) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/pages) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/pages) by extensions ['python_setup_py']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/pages) by extension 'python_setup_py'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer) by extensions ['ignore', 'ignore_ament_install']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer) by extension 'ignore'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer) by extension 'ignore_ament_install'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer) by extensions ['colcon_pkg']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer) by extension 'colcon_pkg'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer) by extensions ['colcon_meta']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer) by extension 'colcon_meta'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer) by extensions ['ros']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer) by extensions ['cmake', 'python']
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer) by extension 'cmake'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer) by extension 'python'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer/traffic_controls) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer/traffic_controls) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer/traffic_controls) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer/traffic_controls) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer/traffic_controls) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer/traffic_controls) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer/traffic_controls) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer/traffic_controls) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer/traffic_controls) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer/traffic_controls) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer/traffic_controls) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer/traffic_controls) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer/traffic_controls) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/renderer/traffic_controls) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/theme) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/theme) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/theme) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/theme) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/theme) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/theme) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/theme) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/theme) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/theme) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/theme) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/theme) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/theme) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/theme) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/theme) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/utils) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/utils) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/utils) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/utils) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/utils) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/utils) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/utils) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/utils) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/utils) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/utils) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/utils) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/utils) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(dt-frontend/src/utils) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(temp) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(temp) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(temp) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(temp) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(temp) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(temp) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(temp) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(temp) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(temp) by extension 'ros'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(temp) by extensions ['cmake', 'python']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(temp) by extension 'cmake'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(temp) by extension 'python'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(temp) by extensions ['python_setup_py']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(temp) by extension 'python_setup_py'
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
